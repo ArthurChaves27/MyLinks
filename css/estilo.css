@@ -3,7 +3,7 @@
   }
   
   * {
-    margin: 0;
+    margin: 10px;
   }
 body {
     font-family: 'Inter', serif;
@@ -13,10 +13,14 @@ body {
     align-items: center;
     background-color: hsl(0, 0%, 8%);
     min-height: 100vh;
-    padding: 15px;
     gap: 30px;
+    
 }
 
+header {
+    text-align: center;
+    margin-top: 20px;
+}
 
 .meus-links {
     display: flex;
@@ -31,15 +35,23 @@ body {
 }
 
 .btn-links {
+    display: flex;
+    justify-content: center;
     background-color: hsl(0, 0%, 20%);
     border-radius: 10px;
-    width: 300px;
+    width: 250px;
+    height: 50px;
     border: none;
     gap: 20px;
     padding: 5px;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 10px;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 10px;
+    
 }
 
 .btn-links:hover {
@@ -48,9 +60,27 @@ body {
 
 .foto {
     border-radius: 150px;
+    display: block;
+    margin-inline: auto;
+    width: 30%;   
 }
 
 .nome {
-    font-size: 30px;
+    font-size: 25px;
     color: hsl(0, 0%, 100%);
+    margin-top: 35px;
+    box-sizing: 0px;
+    font-weight: 700;
+}
+
+.lugar {
+    color: hsl(75, 94%, 57%);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.informacoes {
+    color: hsl(0, 0%, 100%);
+    margin-top: 30px;
+    font-weight: 400;
 }
